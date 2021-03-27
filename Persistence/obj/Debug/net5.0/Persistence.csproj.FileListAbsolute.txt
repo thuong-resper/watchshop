@@ -1,0 +1,15 @@
+C:\Users\kangj\Desktop\WatchShop\Persistence\bin\Debug\net5.0\Persistence.deps.json
+C:\Users\kangj\Desktop\WatchShop\Persistence\bin\Debug\net5.0\Persistence.dll
+C:\Users\kangj\Desktop\WatchShop\Persistence\bin\Debug\net5.0\ref\Persistence.dll
+C:\Users\kangj\Desktop\WatchShop\Persistence\bin\Debug\net5.0\Persistence.pdb
+C:\Users\kangj\Desktop\WatchShop\Persistence\bin\Debug\net5.0\Domain.dll
+C:\Users\kangj\Desktop\WatchShop\Persistence\bin\Debug\net5.0\Domain.pdb
+C:\Users\kangj\Desktop\WatchShop\Persistence\obj\Debug\net5.0\Persistence.csprojAssemblyReference.cache
+C:\Users\kangj\Desktop\WatchShop\Persistence\obj\Debug\net5.0\Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kangj\Desktop\WatchShop\Persistence\obj\Debug\net5.0\Persistence.AssemblyInfoInputs.cache
+C:\Users\kangj\Desktop\WatchShop\Persistence\obj\Debug\net5.0\Persistence.AssemblyInfo.cs
+C:\Users\kangj\Desktop\WatchShop\Persistence\obj\Debug\net5.0\Persistence.csproj.CoreCompileInputs.cache
+C:\Users\kangj\Desktop\WatchShop\Persistence\obj\Debug\net5.0\Persistence.csproj.CopyComplete
+C:\Users\kangj\Desktop\WatchShop\Persistence\obj\Debug\net5.0\Persistence.dll
+C:\Users\kangj\Desktop\WatchShop\Persistence\obj\Debug\net5.0\ref\Persistence.dll
+C:\Users\kangj\Desktop\WatchShop\Persistence\obj\Debug\net5.0\Persistence.pdb
