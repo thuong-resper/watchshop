@@ -1,0 +1,16 @@
+.Auth {
+  margin: 20px auto;
+  width: 80%;
+  text-align: center;
+}
+
+.TextField {
+  width: 80%;
+  padding: 10px 0 !important;
+}
+
+@media (min-width: 600px) {
+  .Auth {
+    width: 500px;
+  }
+}

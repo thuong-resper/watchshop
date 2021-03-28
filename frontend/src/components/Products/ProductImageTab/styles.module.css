@@ -1,0 +1,63 @@
+.tab {
+  display: flex;
+  flex-direction: column;
+}
+
+.tabColor {
+  min-width: unset;
+  width: 6rem;
+  height: 6rem;
+}
+
+.tabColor span div {
+  width: auto;
+  height: auto;
+}
+
+.box {
+  text-align: center;
+  position: relative;
+}
+
+.box1 {
+  padding: unset;
+}
+
+.imgShow {
+  height: auto;
+  width: 70%;
+  object-fit: cover;
+}
+
+.imgShow span {
+  top: 0px;
+  background-color: transparent;
+  height: 96px;
+  border: 2px solid #f50057;
+}
+
+.button {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.button_flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 600px) {
+  .tabs {
+    display: flex;
+  }
+  .tabColor {
+    width: 5rem;
+    height: 5rem;
+  }
+
+  .box div {
+    padding: unset;
+  }
+}

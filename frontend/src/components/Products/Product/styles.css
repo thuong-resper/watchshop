@@ -1,0 +1,158 @@
+.product-item {
+  width: 100%;
+}
+
+.one-item {
+  width: 100%;
+  background-color: #fff;
+  list-style: none;
+  transition: 0.5ms;
+}
+
+/* @media only screen and (min-width: 601px) and (max-width: 768px) {
+  .product-item {
+    width: calc(100% / 3);
+  }
+}
+
+
+
+@media only screen and (min-width: 769px) {
+  .product-item {
+    width: calc(100% / 4);
+  }
+}
+
+@media only screen and (min-width: 960px) {
+  .product-item {
+    width: calc(100% / 5);
+  }
+} */
+
+.item {
+  height: 100%;
+  float: left;
+  position: relative;
+  overflow: hidden;
+  transition: 0.4;
+}
+
+.one-item:hover h3 {
+  color: var(--primary);
+}
+
+.item-link {
+  text-decoration: none;
+  color: inherit;
+  padding: 10px 0;
+  display: block;
+}
+
+.one-item:hover img {
+  -webkit-transform: translateY(-8px);
+  transform: translateY(-8px);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  transition-duration: 0.3s;
+  transition-property: transform;
+}
+
+.height-label {
+  overflow: hidden;
+  height: 23px;
+}
+
+.item-img {
+  width: 180px;
+  height: 180px;
+  height: 100%;
+  width: 100%;
+  max-width: 100%;
+  max-height: 100%;
+  margin: 5px auto 25px;
+}
+
+.item-name {
+  display: block;
+  line-height: 1.3em;
+  font-size: 14px;
+  margin: 0 10px;
+  color: var(--defaultTextColor);
+  overflow: hidden;
+  width: 100%;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  max-width: fit-content;
+}
+
+.pros {
+  margin: 10px;
+  padding: 0;
+  white-space: unset;
+  color: #777;
+  line-height: 22px;
+  height: 20px;
+}
+
+.pros span {
+  font-size: 11px;
+  text-decoration: none;
+  color: #777;
+  border-radius: 5px;
+  position: relative;
+  margin: 5px 0 0;
+  border: 1px solid #eee;
+  padding: 3px;
+}
+
+.price {
+  padding: 0;
+  margin: 5px 10px 0;
+  display: block;
+  overflow: hidden;
+}
+
+.price strong {
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+  font-size: 14px;
+  color: var(--secondary);
+  line-height: 15px;
+}
+
+.price span {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 12px;
+  text-decoration: line-through;
+  margin-left: 5px;
+  color: var(--defaultTextColor);
+  margin: 0 5px;
+}
+
+.price i {
+  font-size: 12px;
+  color: var(--secondary);
+  margin: 0 5px 0;
+  display: inline-block;
+  vertical-align: middle;
+  font-style: normal;
+}
+
+/* responsive */
+
+@media only screen and (max-width: 600px) {
+  .item {
+    float: none;
+  }
+  .pros {
+    margin: 0 0 0 10px;
+  }
+  .item-img {
+    display: block;
+    width: 140px;
+    height: 140px;
+  }
+}

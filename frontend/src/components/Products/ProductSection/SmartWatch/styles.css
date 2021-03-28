@@ -1,0 +1,14 @@
+.tabs-smart > button {
+  min-width: 100px !important;
+  width: 100px !important;
+  /* width: 50px */
+}
+
+@media (min-width: 601px) and (max-width: 768px) {
+  .smart-section {
+    width: 472px;
+  }
+  .seemore-dnone {
+    display: none;
+  }
+}

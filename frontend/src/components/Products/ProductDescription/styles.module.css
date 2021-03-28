@@ -1,0 +1,25 @@
+.background {
+  background-color: #fff;
+  border-radius: 4px;
+  margin-bottom: 1.5rem;
+}
+
+.iframe {
+  width: 100%;
+  min-height: 28rem;
+  height: auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .d_flex {
+    justify-content: flex-start;
+    border: 1px solid #00000014;
+    border-radius: 4px;
+    margin: 0.25rem 0.5rem;
+    padding: 0.5rem;
+  }
+
+  .iframe {
+    min-height: 15rem;
+  }
+}

@@ -1,0 +1,23 @@
+.skeleton-product {
+  height: 407px;
+}
+
+@media only screen and (max-width: 600px) {
+  .skeleton-product {
+    width: 100%;
+    height: auto;
+  }
+
+  .skeleton-product > span:first-child {
+    height: 14rem !important;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 768px) {
+  .skeleton-product {
+    margin: 1rem 0;
+  }
+  .skeleton-product > span:first-child {
+    height: 17rem !important;
+  }
+}

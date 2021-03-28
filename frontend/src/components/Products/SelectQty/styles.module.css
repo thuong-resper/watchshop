@@ -1,0 +1,10 @@
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+  text-align: center;
+}
+
+.inputField * input {
+  width: 2rem;
+  text-align: center;
+}

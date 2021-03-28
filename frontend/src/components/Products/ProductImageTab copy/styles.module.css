@@ -1,0 +1,24 @@
+.tab {
+  display: flex;
+  flex-direction: column;
+}
+
+.tabColor {
+  min-width: unset;
+  width: auto;
+  height: 6rem;
+}
+
+.imgShow {
+  height: auto;
+  width: 100%;
+  padding: 3rem 0;
+  object-fit: cover;
+}
+
+.imgShow span {
+  top: 0px;
+  background-color: transparent;
+  height: 96px;
+  border: 2px solid #f50057;
+}

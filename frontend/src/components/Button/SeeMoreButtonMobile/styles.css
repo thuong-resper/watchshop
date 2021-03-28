@@ -1,0 +1,22 @@
+button.button-show-more {
+  display: none;
+  margin: 0.5rem auto 0;
+  text-transform: none;
+  background-color: #fff;
+}
+
+.skeleton-p-hide button.button-show-more {
+  bottom: -2.5rem;
+}
+
+@media only screen and (max-width: 600px) {
+  button.button-show-more {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 100;
+    width: 100%;
+  }
+}

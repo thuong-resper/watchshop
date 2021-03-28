@@ -1,0 +1,311 @@
+.tab,
+.tab:hover {
+  position: relative;
+  padding: 0;
+  background-color: #fff !important;
+}
+
+/* Material UI */
+.app-bar {
+  background-color: #fff !important;
+  box-shadow: none;
+  color: var(--defaultTextColor) !important;
+  width: fit-content;
+  box-shadow: none !important;
+}
+
+.tab-panel > div {
+  padding: 20px 0 0 0;
+}
+
+.Mui-selected {
+  font-weight: 600;
+}
+
+.headingtop {
+  height: 89px;
+  text-indent: -9999px;
+  margin-top: 20px;
+  padding: 0;
+  background: transparent url("./title-bestseller-min.png") no-repeat center top;
+}
+
+.background-img {
+  max-width: 239px !important;
+  width: 239px;
+  margin-right: 10px !important;
+}
+
+.rp1 {
+  overflow: hidden;
+  box-sizing: border-box;
+  position: relative;
+  margin: 20px auto;
+}
+
+.m-heading {
+  display: block;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 238px;
+}
+
+.img-m-heading {
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+}
+
+.img-m-heading-dk {
+  display: block;
+}
+
+.img-m-heading-mb {
+  display: none;
+}
+
+.m-content {
+  display: block;
+  overflow: hidden;
+  height: 100%;
+  background: #000;
+  padding-left: 240px;
+  background-color: #ffaad0;
+}
+
+.df {
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: cover;
+  height: 100%;
+}
+
+.df1 {
+  background-image: url("https://cdn.tgdd.vn/v2015/Content/desktop/images/V5/category/desk-donghothoitrangbanner.png");
+}
+
+.df2 {
+  background-image: url("https://cdn.tgdd.vn/v2015/Content/desktop/images/V5/category/desk-donghothongminhbanner.png");
+}
+
+.seemore {
+  color: var(--primary);
+  position: absolute;
+  top: 15px;
+  right: 3px;
+}
+
+.seemore:after {
+  content: "";
+  width: 5px;
+  height: 5px;
+  border-top: 1px solid var(--primary);
+  border-right: 1px solid var(--primary);
+  transform: rotate(45deg);
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 0 1px 5px;
+}
+
+.link-accessories {
+  font-size: 1rem;
+  color: "var(--primary";
+  position: absolute;
+  top: 25px;
+  right: 0;
+  background-color: #fff;
+}
+
+.top-15 {
+  margin-top: 15px !important;
+}
+
+.skeleton-p {
+  height: 503px;
+  margin-top: 20px;
+  background-color: #fff;
+  position: relative;
+  overflow: hidden;
+}
+
+.skeleton-p-1 {
+  height: 428px;
+  background-color: #fff;
+}
+
+.item-skeleton {
+  width: calc(100% / 5);
+}
+
+.item-skeleton-4 {
+  width: calc(100% / 4);
+}
+
+/* carousel */
+.rec-carousel {
+  position: relative;
+}
+
+.rec-carousel-item {
+  border-right: 0.5px solid #eee;
+  border-top: 0.5px solid #eee;
+  border-bottom: 0.5px solid #eee;
+}
+
+.rec-carousel > button {
+  z-index: 1;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 0;
+  padding: 0;
+  width: 30px;
+  height: 50px;
+  min-width: 30px;
+  box-shadow: 0 0 2px 0px #33333321;
+}
+
+.rec-carousel > button:focus:enabled {
+  background-color: var(--primary);
+}
+
+.rec-carousel button:nth-of-type(2) {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
+
+.rec-slider-container {
+  margin: 0 !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .seemore {
+    display: none;
+  }
+
+  .df {
+    height: 200px;
+    width: 100%;
+    max-width: none;
+    background-size: cover;
+  }
+  .background-img {
+    max-width: 100% !important;
+    width: 100% !important;
+    margin: 0 !important;
+  }
+  .df1 {
+    background-image: url("https://cdn.tgdd.vn/v2015/Content/mobile/images/V5/category/mb-bannerdonghothoitrang.png");
+  }
+  .df2 {
+    background-image: url("https://cdn.tgdd.vn/v2015/Content/mobile/images/V5/category/mb-donghothongminhbanner.png");
+  }
+  .link-accessories {
+    display: none;
+  }
+
+  .item-skeleton {
+    overflow: hidden;
+    min-width: calc(100% / 2);
+  }
+
+  .item-skeleton:last-child {
+    width: 100%;
+  }
+
+  .item-skeleton:last-child > div {
+    margin-top: 1rem;
+  }
+
+  .skeleton-p {
+    margin-top: 0;
+    height: auto;
+    overflow: hidden;
+  }
+
+  .tab-panel {
+    height: 42.5rem;
+    position: relative;
+  }
+
+  .skeleton-p-hide {
+    height: auto;
+    overflow: unset !important;
+    margin-bottom: 3rem;
+  }
+
+  .item-skeleton {
+    width: calc(100% / 2);
+  }
+
+  /* .rec-carousel */
+  .skeleton-p .rec-item-wrapper {
+    overflow: unset;
+    width: 100% !important;
+  }
+
+  .rec-carousel > button {
+    display: none;
+  }
+
+  .skeleton-p .rec-slider {
+    flex-wrap: wrap;
+    display: flex;
+  }
+
+  .skeleton-p .rec-slider > div {
+    width: calc(100% / 2);
+  }
+
+  .skeleton-p > div:first-child {
+    position: unset;
+  }
+
+  .m-heading {
+    position: relative;
+    width: 100%;
+  }
+
+  .img-m-heading-dk {
+    display: none;
+  }
+
+  .img-m-heading-mb {
+    display: block;
+  }
+
+  .rp1 {
+    display: block !important;
+  }
+  .m-content {
+    padding-left: 0;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 768px) {
+  .skeleton-p {
+    height: 496px;
+    overflow: hidden;
+  }
+  .item-skeleton {
+    width: calc(100% / 3);
+    min-width: calc(100% / 3);
+  }
+  .background-img {
+    width: calc(100% / 4);
+  }
+  .item-skeleton-4 {
+    width: calc(100% / 2);
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  .item-skeleton-4:last-child {
+    display: none;
+  }
+}
