@@ -60,3 +60,7 @@ C:\Users\kangj\Desktop\WatchShop\API\bin\Debug\net5.0\runtimes\win-x64\native\e_
 C:\Users\kangj\Desktop\WatchShop\API\bin\Debug\net5.0\runtimes\win-x86\native\e_sqlite3.dll
 C:\Users\kangj\Desktop\WatchShop\API\bin\Debug\net5.0\Humanizer.dll
 C:\Users\kangj\Desktop\WatchShop\API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\kangj\Desktop\WatchShop\API\bin\Debug\net5.0\Core.dll
+C:\Users\kangj\Desktop\WatchShop\API\bin\Debug\net5.0\Infrastructure.dll
+C:\Users\kangj\Desktop\WatchShop\API\bin\Debug\net5.0\Infrastructure.pdb
+C:\Users\kangj\Desktop\WatchShop\API\bin\Debug\net5.0\Core.pdb
